@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.AddDrinkFragment">
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:id="@+id/spinner_drink_category"
+        android:spinnerMode="dialog"
+        android:prompt="@string/select_drink_category"
+        android:layout_marginBottom="15dp"/>
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/spinner_drink_category"
+        android:id="@+id/spinner_drink"
+        android:spinnerMode="dialog"
+        android:prompt="@string/select_drink"
+        android:layout_marginBottom="15dp"
+        android:focusable="false" />
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/spinner_drink"
+        android:id="@+id/spinner_drink_number"
+        android:spinnerMode="dialog"
+        android:prompt="@string/select_drink_number" />
+    <android.support.v7.widget.AppCompatImageButton
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/btn_add_drink"
+        android:background="@android:color/holo_green_light"
+        android:layout_alignParentBottom="true"
+        android:src="@android:drawable/ic_menu_add"/>
+</RelativeLayout>

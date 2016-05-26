@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Drink Or Drive</string>
+    <string name="add_drink_title">Add a Drink</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="main_text_content">Tap button to add what you drank!</string>
+    <string name="select_drink_category">Select a Drink Category</string>
+    <string name="select_drink">Select a Drink</string>
+    <string name="select_drink_number">Select How many</string>
+
+    <string name="add_drink_activity_title">Add a drink</string>
+</resources>
